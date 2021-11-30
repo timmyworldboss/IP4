@@ -3,3 +3,15 @@
 }p {
   font-size: 44px;
 }
+
+#home{
+  /* background-image: url(image/hawai\ pizza.jpeg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body{
+  color:blue;
+
+}
+

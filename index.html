@@ -7,19 +7,19 @@
   <title>TIMS PIZZA</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="z-index: 2; position: fixed;" >
-      <a class="navbar-brand" href="#">TIMS pizza</a>
+      <a class="navbar-brand" href="#">TIMS PIZZA</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <!-- <a class="nav-item nav-link  href="#home">Home </a> -->
+         
           <a class="nav-item nav-link" href="#home">Home</a>
           <a class="nav-item nav-link" href="#menu">Menu</a>
           <a class="nav-item nav-link" href="#about">About us</a>
@@ -33,104 +33,143 @@
       <div id="home">
         <div id="menu" style="padding-top: 20%; padding-bottom: 10%;padding-left: 4%;">
         <h1 class="text-center " ">Menu</h1>
+
+
+
         <style>
           body {
-            background-image: url('./image/backgrnd.jpg');
+            background-image: url('./image/pizzzza.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
           }
           </style>
+       
         
         <div class="row ">
           <div class="col-4 text-center">
-            <img src="./image/margerita pizza.jpeg" alt="" height="60% " width="60%">
-            <p><b>Margharita pizaa @ 870</b></p>
+            <img src="./image/mushroom.jpeg" alt="" height="70% " width="70%">
+            <p><b>Mashroomed pizaa @ 570</b></p>
           </div>
           <div class="col-4 text-center">
-            <img src="./image/onion.jpg" alt="" height="60% " width="60%">
+            <img src="./image/onion.jpg" alt="" height="70% " width="70%">
             <p><b>Onion pizaa @ 600</b></p>
           </div>
           <div class="col-4 text-center">
-            <img src="./image/peporoni.jpg" alt="" height="60% " width="60%">
+            <img src="./image/peporoni.jpg" alt="" height="70% " width="70%">
             <p> <b>Peperoni pizaa @ 650</b></p>
-          <div class="col-4 text-centre">
-            <img src="./image/sunchoke.jpeg" alt="" height="60% " width="60%">
-            <p><b>sunchoke@ 770</b></p>
-          </div>
           </div>
         </div>
         </div>
       
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-<div class="back">
-<div class="container-fluid order" id="make-order">
-  <div class="order-overlay">
-    <div class="controls-top text-center" id="Order-now">
-      <h3 class="h1-reponsive-text text-uppercase font-weight-bold pulse" style="color:blue;"><strong>MAKE YOUR ORDER HERE.
-      </h3>
-    </div>
-    <div class="order row">
-      <div class="col-md-6">
-        <h1 style="color:blue">FILL FORM</h1>
-        <form action="" id="pizzainfo">
-          <label for="select">Select Your Flavor</label>
-          <select class="browser-default custom-select custom-select-md mb-3" id="type">
-            <option value="Margherita Pizza">Margherita Pizza</option>
-            <option value="Peperoni Pizza" id="type">Peperoni Pizza</option>
-            <option value="BBQ Pizza" id="type">BBQ Chicken Pizza</option>
-            <option value="Hawaian Pizza" id="type">Hawaian Pizza</option>
-            <option value="Sunchoke Pizza" id="type">Sunchoke Pizza</option>
-            <option value="Meat Lovers Pizza" id="type">Meat Lovers Pizza</option>
-          </select>
-          <label for="">select size</label>
-          <select class="form-control" name="size" id="size">
-            <option value="1200">Large @ ksh 1200</option>
-            <option value="900">Medium @ ksh 800</option>
-            <option value="600">Small @ ksh 550</option>
-          </select>
-          <label for="">select crust</label>
-          <select class="form-control" name="" id="crust">
-            <option value="230" name="crust">Thin crust @ ksh230
-            <option value="250" name="crust">Thick crust @ ksh 250
-            <option value="300" name="crust">Deep crust @ ksh 300
-            <option value="300" name="crust">Glutten free crust @ ksh 300
-            <option value="300" name="crust">Crispy crust @ ksh 300
-          </select>
-          <label for="">Toppings @ 150 each</label> <br>
-          <input value="150" type="checkbox" id="tops">Broccoli
-          <input value="150" type="checkbox" id="tops">Bacon
-          <input value="150" type="checkbox" id="tops">Zucchini
-          <input value="150" type="checkbox" id="tops">Cheese
-          <input value="150" type="checkbox" id="tops">Mozarella Cheese <br>
-          <label for=""> Quantity</label>
-          <input class="form-control form-group" type="text" id="pizzaquantity">
-          <button name="button" type="submit" id="submit" value="Check-Out"
-            onclick="calctotalPrice()">Submit</button>
 
-        </form>
-      </div>
-      <div class="col-md-6">
-        <div id="formlocation">
-          <h3 style="color: blue;">DELIVERY INFORMATION</h3>
-          <form id="home">
-            <label for="name">Name</label>
-            <input class="form-control" type="text" name="" id="name" required="required">
-            <label for="location">Location</label>
-            <input class="form-control" type="text" id="location" placeholder="prestige..."><br>
-            <input class="form-control" type="text" id="email" placeholder="TimothyHassan@......">
-            <label for="phonenumber">Phone Number</label>
-            <input class="form-control" type="tel" placeholder="0758605089" id="number"> <br>
-            <button type="submit" name="button" id="submit">submit</button>
-          </form>
+        <div class="row">
+          
+          <div class="col-md-6 col-sm-6 col-lg-6">
+            <div id="odder">
+              <h2><b>Place your order</b> </h2>
+              <form id="type">
+                <div class="form-group">
+                  <label for="">choose your crust</label>
+                  <select class="form-control" id="crust1" required>
+                    <option value=""></option>
+                    <option value="crispy">Crispy</option>
+                    <option value="stuff">Stuffed</option>
+                    <option value="gulen">Gluten-free</option>
+
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">choose your toppings</label>
+                  <select class="form-control" id="topping1" required>
+                    <option value=""></option>
+                    <option value="pepe">peperoni</option>
+                    <option value="mash">mashroom</option>
+                    <option value="onion">onion</option>
+
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">pick your size</label>
+                  <select class="form-control" id="size1" required>
+                    <option value=""></option>
+                    <option value="small">small</option>
+                    <option value="medium">medium</option>
+                    <option value="large">large</option>
+ 
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-primary" >checkout</button>
+              </form>
+
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6 col-lg-6">
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">crust</th>
+                  <th scope="col">Toppings</th>
+                  <th scope="col">size</th>
+                  <th scope="col">total</th>
+                  
+                  <thead>
+              <tbody id="table">
+
+              </tbody>
+            </table>
+
+          </div>
         </div>
+        <p class="delivery-cost hidden">
+          Delivery: Ksh. <span id="delivery-amount"></span>
+        </p>
+        <p class="option1" hidden">
+          Total: Ksh. <span id="Amount2"></span>
+        </p>
+        <br /><br />
+        <button class="btn btn-primary hidden  "  style="display: none;" id="Procced">Proceed</button>
+     
+  
+  <div class="checkout-options hidden">
+    <h3>Checkout Form</h3>
+    <form id="proceed-forms">
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" id="name1" placeholder="Enter Your Name" required />
       </div>
-    </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Delivery Option</label>
+        <select class="form-control" id="option1" required>
+          <option value="">...</option>
+          <option value="deliver">Deliver</option>
+          <option value="collect">Collect</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
   </div>
+
+  <div class="location hidden">
+    <form class="location-form">
+      <h3>Enter Location</h3>
+      <div class="form-group">
+        <label>Estate</label>
+        <input type="text" class="form-control" id="estate" placeholder="Enter Your location" required />
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">House Number</label>
+        <input type="text" class="form-control" id="house-number" placeholder="Enter Your House Numper" required />
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+  </div>
+</div>
 
 
 
@@ -139,16 +178,22 @@
   </section>
   <section id="about">
     <h2>About Us</h2>
+    
     <p> Tims pizza is a Kenyan based pizza shop . Timothy gaddafi came up
       with the
       idea and business model to found the company
       following a large demand  and a business idea  when he was a student at Moringa University .
       Greatpizza
        we are located in Mombasa near yaya bridge</p>
+
+      
+
+
+
   </section>
   <section id="contact">
     <p> Contact Us</p>
-    
+    <form action="http://eepurl.com/hfJ-dP" method="POST">
       <div class="form-group">
         <label for="">Your Name</label>
         <input type="text" class="form-control" id="name" placeholder="">
@@ -172,7 +217,10 @@
     </form>
   </section>
   </div>
-  <script src="./js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  
+  <script src="js/script.js"></script>
 </body>
 
 </html>
