@@ -104,11 +104,7 @@ $(document).ready(function () {
 		$("#topping1").val("");
 		$("#size1").val("");
 		
-		// console.log('pizza price', newPizzaOder.totalprice());
-		// console.log('jjjjjjjj')
-		// console.log(newOder)
-		// console.log('aaaaaaaaaaa')
-		// console.log('new_order', newOder)
+		
 		total = newOder.reduce((counter, element) => counter + element, 0)
 		let newPizza = newPizzaOder
 		$("#table").append(
