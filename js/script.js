@@ -130,10 +130,7 @@ $(document).ready(function () {
 			"</td>" +
 			"</tr>"
 		);
-		// console.log('hkibibnvu')
-		// console.log(crust2)
-		// console.log('jgv ohkbugj')
-
+		
 		$("#table").append("");
 		if (newOder.length > 0) {
 			$("#form-title").empty();
